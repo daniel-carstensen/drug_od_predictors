@@ -21,22 +21,24 @@ policies and community work.<br>
 We aim to study potential effects of various factors on the rate and number of drug related overdose deaths ( ) by
 regressing the overdose rate onto demographic and socio-economic factors ( ) for the year 2020 by state and
 county-level in the US indexed by in the above equation. Such factors may include
-➢ Median household income
-➢ Percent of insured people
-➢ Poverty rate
-➢ Level of education
-➢ Race of sample population
-➢ Ethnicity of sample population
-➢ Inequality in household income
-➢ Unemployment rate
-➢ Disability rate
+<ul>
+<li>Median household income</li>
+<li>Percent of insured people</li>
+<li>Poverty rate</li>
+<li>Level of education</li>
+<li>Race of sample population</li>
+<li>Ethnicity of sample population</li>
+<li>Inequality in household income</li>
+<li>Unemployment rate</li>
+<li>Disability rate</li>
+</ul>
 As part of our initial data exploration, we will estimate the probability distribution of continuous factors using Kernel
 Density Estimation to verify a Normal distribution. If necessary, we might choose to transform certain variables to
 achieve a Normal distribution. Further, we will perform correlation analysis and data visualization to understand the
-relationship between our variables to reduce the risk of multicollinearity, where highly correlated variables can reduce
-the accuracy of our regression model.
+relationship between our variable to reduce the risk of multicollinearity, where highly correlated variables can reduce
+the accuracy of our regression model.<br>
 We suspect that outliers may decrease the overall accuracy of a standard OLS regression model. Therefore, we
 aim to introduce regularization into our model to limit the effect of any singular factor on the prediction, such models
-may include Lasso (L1) and Ridge (L2) regression.
+may include Lasso (L1) and Ridge (L2) regression.<br>
 Lastly, we aim to employ Bayesian inference models such as Bayesian Linear Regression to compare accuracy
 between regression models.
