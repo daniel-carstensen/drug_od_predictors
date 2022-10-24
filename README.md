@@ -18,8 +18,8 @@ how environmental risk factors affect drug overdoses and which can be used to de
 policies and community work.<br>
 
 ## Methodology
-We aim to study potential effects of various factors on the rate and number of drug related overdose deaths ( ) by
-regressing the overdose rate onto demographic and socio-economic factors ( ) for the year 2020 by state and
+We aim to study potential effects of various factors on the rate and number of drug related overdose deaths by
+regressing the overdose rate onto demographic and socio-economic factors for the year 2020 by state and
 county-level in the US indexed by in the above equation. Such factors may include
 <ul>
 <li>Median household income</li>
